@@ -1,0 +1,8 @@
+
+// cmd : ctrl + space 
+
+{
+    "compilerOptions": {
+        "target": "es5"
+    }
+}
