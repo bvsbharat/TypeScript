@@ -1,0 +1,64 @@
+// Command Used 
+
+node -v 
+npm install -g typescript -> tsc
+tsc app.ts -- convert with cmd
+npm install -g live-server
+tsc app.ts -w // auto convert
+
+1. Topics include:
+
+-> What is TypeScript?
+-> Installing TypeScript
+-> Creating a TypeScript project
+
+2. Reviewing ES6 language features:
+-> default_paramameters
+-> templates strings
+-> let and const
+-> for of loops
+-> lambdas
+-> destructuring
+-> the spread operator
+-> computed properties
+
+3. Type Fundamentals:
+->Into to JavaScript types
+->understanding type inference
+->specifying javascript types 
+->specifying function parameter types
+->Adding function overloads
+
+----------------------------------------------------------------------------------------
+Custom types:
+
+TypeScript offers three ways to define a custom type: interfaces, classes, and enums. 
+----------------------------------------------------------------------------------------
+
+4. interfaces :
+It acts as a contract that describes the data and the behaviors that the object exposes for others to interact with
+ 
+->Defining custom types with interfaces
+->Using interfaces to describe function
+->Extending interface definition 
+->Defining constant values with enums
+->Defining anonymous types
+
+
+5. Classes
+->Understanding prototypical inheritance
+->Defining a class
+->Applying static properties
+->Making properties smarter with accessors
+->Inheriting behavior from a base accessors
+->Implementing an abstract class
+->controlling visiblity with access
+->Implementing interfaces
+
+
+Generics
+Organizing code with namespaces
+Switching modules
+Importing modules
+Debugging TypeScript
+Implementing decorators
